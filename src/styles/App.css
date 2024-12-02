@@ -1,0 +1,42 @@
+:root {
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  width: 100vw;
+  color: white;
+  background-color: #242424;
+  padding: 5rem 0;
+}
+
+.title {
+  display: inline;
+}
+
+.title p {
+  color: rgb(159, 192, 255);
+  display: inline;
+}
+
+.container {
+  display: flex;
+  margin: 3rem;
+}
+
+.sidebar {
+  width: 35%;
+  background-color: #242424;
+}
+
+.body {
+  width: 65%;
+}
+
+.resume {
+  background-color: #fff;
+  aspect-ratio: 1/1.294;
+  width: 85%;
+  margin: auto;
+  border-radius: 10px;
+}
