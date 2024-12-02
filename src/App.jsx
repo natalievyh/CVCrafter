@@ -11,15 +11,8 @@ function App() {
         <p>Fill out the forms below and your CV will be dynamically updated!</p>
       </div>
       <div className='container'>
-        <div className='sidebar'>
-          <div className='dropdown'>Personal Information</div>
-          <div className='dropdown'>Education</div>
-          <div className='dropdown'>Work Experience</div>
-          <div className='dropdown'>Skills</div>
-        </div>
-        <div className='body'>
-            <div className='resume'>Resume</div>
-        </div>
+        <Sidebar></Sidebar>
+        <div className='resume'>Resume</div>
       </div>
     </>
   )

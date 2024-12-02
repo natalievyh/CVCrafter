@@ -1,13 +1,19 @@
 :root {
   box-sizing: border-box;
+  --blue: #9fc0ff;
+  --darkGray: #242424;
+}
+
+body {
+  padding: 5rem;
 }
 
 .header {
   text-align: center;
-  width: 100vw;
-  color: white;
-  background-color: #242424;
-  padding: 5rem 0;
+  width: 100%;
+  color: #fff;
+  background-color: var(--darkGray);
+  padding-bottom: 5rem;
 }
 
 .title {
@@ -15,28 +21,23 @@
 }
 
 .title p {
-  color: rgb(159, 192, 255);
+  color: var(--blue);
   display: inline;
 }
 
 .container {
   display: flex;
-  margin: 3rem;
 }
 
 .sidebar {
   width: 35%;
-  background-color: #242424;
-}
-
-.body {
-  width: 65%;
+  background-color: var(--darkGray);
 }
 
 .resume {
   background-color: #fff;
+  width: 50%;
   aspect-ratio: 1/1.294;
-  width: 85%;
   margin: auto;
   border-radius: 10px;
 }
