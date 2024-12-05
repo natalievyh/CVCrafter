@@ -6,10 +6,6 @@ export default function PersonalInfoForm() {
                 <input type='text' id='name' name='name'></input>
             </div>
             <div className='formInput'>
-                <label for='description'>Brief Description</label>
-                <input type='text' id='description' name='description'></input>
-            </div>
-            <div className='formInput'>
                 <label for='email'>Email</label>
                 <input type='email' id='email' name='email'></input>
             </div>

@@ -15,12 +15,12 @@ export default function Sidebar() {
               onShow={() => handleDropdownClick(0)}
               ></Dropdown>
           <Dropdown
-              title='Work Experience'
+              title='Education'
               isActive={activeIndex === 1}
               onShow={() => handleDropdownClick(1)}
               ></Dropdown>
           <Dropdown
-              title='Education'
+              title='Experience'
               isActive={activeIndex === 2}
               onShow={() => handleDropdownClick(2)}
               ></Dropdown>

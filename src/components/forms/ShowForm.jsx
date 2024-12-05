@@ -7,7 +7,7 @@ export default function ShowForm({title}) {
     switch(title) {
         case 'Personal Information':
             return <PersonalInfoForm></PersonalInfoForm>
-        case 'Work Experience':
+        case 'Experience':
             return <ExperienceForm></ExperienceForm>
         case 'Education':
             return <EducationForm></EducationForm>
