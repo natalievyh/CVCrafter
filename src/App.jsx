@@ -1,4 +1,5 @@
 import './styles/App.css'
+import './styles/Resume.css'
 import Resume from './components/Resume.jsx'
 import Sidebar from './components/Sidebar.jsx'
 
@@ -12,7 +13,7 @@ function App() {
       </div>
       <div className='container'>
         <Sidebar></Sidebar>
-        <div className='resume'>Resume</div>
+        <Resume></Resume>
       </div>
     </>
   )

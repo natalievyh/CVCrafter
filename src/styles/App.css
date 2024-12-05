@@ -33,11 +33,3 @@ body {
   width: 35%;
   background-color: var(--darkGray);
 }
-
-.resume {
-  background-color: #fff;
-  width: 50%;
-  aspect-ratio: 1/1.294;
-  margin: auto;
-  border-radius: 10px;
-}
