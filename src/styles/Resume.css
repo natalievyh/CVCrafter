@@ -20,8 +20,28 @@
     font-size: 0.75rem;
 }
 
-.resume .contactInfo {
+.resume {
     font-size: 1rem;
+}
+
+.contactInfo {
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+}
+
+.contactElement {
+    font-size: 0.9rem;
+    border-left: 1px solid #454545;
+    padding-left: 1rem;
+    height: 1.2rem;
+    margin-bottom: 0.5rem;
+    list-style-type: none; 
+}
+
+.contactElement:first-child {
+    padding-left: 0;
+    border: none;
 }
 
 .schoolInfo, .workInfo {
@@ -40,7 +60,6 @@ li p {
 
 ul {
     padding-left: 1rem;
-    list-style-type: '»  '; 
     list-style-type: '⋄  '; 
 }
 
